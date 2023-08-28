@@ -1,16 +1,10 @@
-import { Home } from "./views";
 import "./App.scss";
-import { Navbar } from "./components/Navbar";
+import Home from "./home/Home";
 
 function App() {
   return (
     <div className="App">
-      <header className="app-header">
-        <div className="app-content">
-          <Navbar />
-          <Home />
-        </div>
-      </header>
+      <Home />
     </div>
   );
 }
